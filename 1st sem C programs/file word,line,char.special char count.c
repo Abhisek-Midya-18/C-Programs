@@ -15,16 +15,14 @@ int main()
 	{
 		if(ch=='\n'||ch==32)
 		{
-		     w++;
+			w++;
 			if(ch=='\n')
-			 l++;
+				l++;
 		}
 		else if(ch>32&&ch<48||ch>57&&ch<65||ch>90&&ch<97||ch>122&&ch<127)
 			s++;
-			
-	c++;			
+		c++;			
 	}
 	printf("line=%d\nword=%d\nspecial=%d\nchar=%d",l,w,s,c);
 	return 1;
-	
 }
